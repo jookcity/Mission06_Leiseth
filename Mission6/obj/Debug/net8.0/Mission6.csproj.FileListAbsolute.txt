@@ -159,3 +159,4 @@
 /Users/jleiseth/RiderProjects/Mission6/Mission6/bin/Debug/net8.0/Mission6.staticwebassets.endpoints.json
 /Users/jleiseth/RiderProjects/Mission6/Mission6/obj/Debug/net8.0/staticwebassets.build.endpoints.json
 /Users/jleiseth/RiderProjects/Mission6/Mission6/obj/Debug/net8.0/staticwebassets/msbuild.Mission6.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/jleiseth/RiderProjects/Mission6/Mission6/obj/Debug/net8.0/Mission6.sourcelink.json

@@ -5,9 +5,9 @@ namespace Mission6.Models;
 
 public class MovieContext : DbContext
 {
-    public MovieContext(DbContextOptions<MovieContext> options) : base (options)
+    public MovieContext(DbContextOptions<MovieContext> options) : base(options)
     {
     }
 
-    public DbSet<Movie> Applications { get; set; }
+    public DbSet<Movie> Movies { get; set; }
 }

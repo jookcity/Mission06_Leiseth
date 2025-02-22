@@ -7,27 +7,28 @@
 <h2>Add a New Movie</h2>
 
 <form asp-action="Create" method="post">
+
+    <div class="form-group">
+        <label asp-for="CategoryId"></label>
+        <input asp-for="CategoryId" class="form-control" />
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+    
     <div class="form-group">
         <label asp-for="Title"></label>
-        <input asp-for="Title" class="form-control" />
+        <input asp-for="Title" class="form-control"/>
         <span asp-validation-for="Title" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="Category"></label>
-        <input asp-for="Category" class="form-control" />
-        <span asp-validation-for="Category" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
         <label asp-for="Year"></label>
-        <input asp-for="Year" class="form-control" type="number" />
+        <input asp-for="Year" class="form-control" type="number"/>
         <span asp-validation-for="Year" class="text-danger"></span>
     </div>
 
     <div class="form-group">
         <label asp-for="Director"></label>
-        <input asp-for="Director" class="form-control" />
+        <input asp-for="Director" class="form-control"/>
         <span asp-validation-for="Director" class="text-danger"></span>
     </div>
 
@@ -45,17 +46,17 @@
 
     <div class="form-group">
         <label asp-for="Edited">Edited?</label>
-        <input asp-for="Edited" type="checkbox" class="form-check-input" />
+        <input asp-for="Edited" type="checkbox" class="form-check-input"/>
     </div>
 
     <div class="form-group">
         <label for="LentTo">Lent to</label>
-        <input asp-for="LentTo" class="form-control" />
+        <input asp-for="LentTo" class="form-control"/>
     </div>
 
     <div class="form-group">
         <label asp-for="Notes"></label>
-        <input asp-for="Notes" class="form-control" maxlength="25" />
+        <input asp-for="Notes" class="form-control" maxlength="25"/>
         <span asp-validation-for="Notes" class="text-danger"></span>
     </div>
 
